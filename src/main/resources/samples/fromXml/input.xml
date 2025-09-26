@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <users>
+        <user>
+            <firstname>Kevin</firstname>
+            <lastname>Smith</lastname>
+            <email>k.smith@foo.com</email>
+        </user>
+        <user>
+            <firstname>Peter</firstname>
+            <lastname>Jones</lastname>
+            <email>p.jones@foo.com</email>
+        </user>
+        <user>
+            <firstname>Sarah</firstname>
+            <lastname>McNeil</lastname>
+            <email>s.mcneil@foo.com</email>
+        </user>
+    </users>
+</root>
