@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<fop version="1.0">
+  <accessibility>true</accessibility>
+  <base>.</base>
+  <source-resolution>72</source-resolution>
+  <target-resolution>72</target-resolution>
+  <default-page-settings height="11.00in" width="8.50in"/>
+  <renderers>
+    <renderer mime="application/pdf">
+      <filterList>
+        <value>flate</value>
+      </filterList>
+      <fonts>
+        <font kerning="yes" embed-url="classpath://fonts/Montserrat-Bold.ttf" embedding-mode="full">
+            <font-triplet name="Montserrat" style="normal" weight="bold"/>
+        </font>
+        <font kerning="yes" embed-url="classpath://fonts/Montserrat-Italic.ttf" embedding-mode="full">
+            <font-triplet name="Montserrat" style="italic" weight="normal"/>
+        </font>
+        <font kerning="yes" embed-url="classpath://fonts/Montserrat-Regular.ttf" embedding-mode="full">
+            <font-triplet name="Montserrat" style="normal" weight="normal"/>
+            <font-triplet name="Times-Roman" style="normal" weight="normal"/>
+        </font>
+      </fonts>
+    </renderer>
+  </renderers>
+</fop>
